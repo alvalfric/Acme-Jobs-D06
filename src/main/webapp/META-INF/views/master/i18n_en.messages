@@ -1,0 +1,195 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+# master.banner.welcome #######################################################
+
+master.banner.background = #3F51B5 
+
+
+# master.welcome ##############################################################
+
+master.welcome.title = Welcome!
+master.welcome.text = \
+	Welcome to Acme Jobs! Never before has it bee easier to get a Job!
+
+# master.menu #################################################################
+
+master.menu.home = Home
+master.menu.sign-up = Sign up
+master.menu.sign-in = Sign in
+master.menu.sign-out = Sign out
+
+# master.menu.anonymous #######################################################
+
+master.menu.anonymous = Anonymous
+master.menu.anonymous.alvaro-link = Alvaro's link
+master.menu.anonymous.ivan-link = Iván's link
+master.menu.anonymous.antonio-link = Antonio's link
+master.menu.anonymous.josescrue-favourite-link = José's link
+master.menu.anonymous.abdel-link = Abdel's link
+
+master.menu.anonymous.investorRecord.list = Investor Records
+master.menu.anonymous.investorRecord.list.top = Top Investor Records
+
+master.menu.anonymous.shout.list = List Shouts
+master.menu.anonymous.shout.create = Shout!
+
+master.menu.anonymous.cardenas-bulletin.list = CardenasBulletin List
+master.menu.anonymous.cardenas-bulletin.create = CardenasBulletin Create
+
+master.menu.anonymous.chellik-bulletin.list = List ChellikBulletin 
+master.menu.anonymous.chellik-bulletin.create = New ChellikBulletin!
+
+master.menu.anonymous.rosado-bulletin.list = List RosadoBulletins
+master.menu.anonymous.rosado-bulletin.create = Create RosadoBulletin
+
+master.menu.anonymous.alferez-bulletin.list = Alferez's Bulletin List
+master.menu.anonymous.alferez-bulletin.create = Alferez's Bulletin Create
+
+master.menu.anonymous.escobar-bulletin.list = List EscobarBulletins
+master.menu.anonymous.escobar-bulletin.create = New EscobarBulletin
+
+master.menu.anonymous.announcement= Announcements
+
+# master.menu.administrator ###################################################
+
+master.menu.administrator = Administrator
+master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.dashboard = Dashboard
+master.menu.administrator.customisation-parameter = Customisation Parameters
+master.menu.administrator.announcement = Announcements
+master.menu.administrator.announcement.create = Create Announcement
+master.menu.administrator.challenge = Challenges
+master.menu.administrator.challenge.create = Create Challenge
+master.menu.administrator.company-records = Company Records
+master.menu.administrator.company-records.create = Create Company Records
+master.menu.administrator.investorRecords = Investor Records
+master.menu.administrator.investorRecord.create = Create Investor Record
+master.menu.administrator.commercialBanner = Commercial Banners
+master.menu.administrator.commercialBanner.create = Create Commercial Banner
+master.menu.administrator.nonCommercialBanner = Non-Commercial Banners
+master.menu.administrator.nonCommercialBanner.create = Create Non-Commercial Banner
+master.menu.administrator.requestAuditor = List of Request Auditor
+
+master.menu.administrator.shutdown = Shut down
+
+# master.menu.authenticated ###################################################
+master.menu.authenticatedactivechallenge= Actives
+master.menu.authenticatedactivechallenge.activechallenge= ActiveChallenges
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.announcement = Announcements
+master.menu.authenticated.challenge= Challenges
+master.menu.authenticated.offer = Offers
+master.menu.authenticated.requests = Requests
+master.menu.authenticated.company-records = Company Records
+master.menu.authenticated.investorRecord.list = Investor Records
+master.menu.authenticated.thread = My Threads
+master.menu.authenticated.thread.list.created = Created Threads
+master.menu.authenticated.thread.create = Create Thread
+master.menu.authenticated.job = Jobs
+
+
+# master.menu.employer ########################################################
+
+master.menu.employer = Employer
+master.menu.employer.job = My Jobs
+master.menu.employer.application = Jobs' Applications
+master.menu.employer.job.create = Create Job
+
+# master.menu.worker ########################################################
+
+master.menu.worker = Worker
+master.menu.worker.application = My Applications
+master.menu.worker.job = Jobs to Apply
+
+# master.menu.auditor ###################################################
+
+master.menu.auditor= Auditor
+master.menu.auditor.auditrecord= Lists Audit Record
+master.menu.auditor.job.done= Audited Jobs
+master.menu.auditor.job.pending = Jobs to Audit
+
+master.menu.worker.application = Applications
+
+# master.menu.provider ########################################################
+
+master.menu.provider = Provider
+master.menu.provider.favourite-link = Favourite link
+master.menu.provider.requests.create = Create Request
+
+# master.menu.consumer ##########################################################
+
+master.menu.consumer = Consumer
+master.menu.consumer.favourite-link = Favourite link
+master.menu.consumer.offer.create = Create Offer
+
+# master.menu.sponsor ###################################################
+
+master.menu.sponsor = Sponsor
+master.menu.sponsor.commercialBanner = My Commercial Banners
+master.menu.sponsor.commercialBanner.create = Create Commercial Banner
+master.menu.sponsor.nonCommercialBanner = My Non-Commercial Banners
+master.menu.sponsor.nonCommercialBanner.create = Create Non-Commercial Banner
+
+# master.menu.user-account ####################################################
+
+master.menu.user-account = Account
+master.menu.user-account.general-data = General data
+master.menu.user-account.provider = Provider data
+master.menu.user-account.become-provider = Become a provider
+master.menu.user-account.consumer = Consumer data
+master.menu.user-account.become-consumer = Become a consumer
+master.menu.user-account.employer = Employer data
+master.menu.user-account.become-employer = Become a employer
+master.menu.user-account.become-worker = Become a worker
+master.menu.user-account.worker = Worker data
+master.menu.user-account.become-sponsor = Become a sponsor
+master.menu.user-account.sponsor= Sponsor data
+master.menu.user-account.auditor = Auditor data
+master.menu.user-account.become-auditor = Become auditor
+
+# master.footer ###############################################################
+
+master.footer.title.about = About us
+master.footer.label.company = Company
+master.footer.label.license = License
+master.footer.title.social = Social
+master.footer.label.linked-in = Linked-In
+master.footer.label.twitter = Twitter
+master.footer.title.languages = Languages
+master.footer.label.english = English
+master.footer.label.spanish = Spanish
+
+# master.company ##############################################################
+
+master.company.title = Acme Jobs
+master.company.text = \
+	Acme Jobs, Inc. is a fictitious fictitious company that provides a \
+	starter project for the students of the Design and Testing subject of the \
+	Software Engineering Curriculum of the University of Sevilla.
+master.company.name = Acme Jobs, Inc.
+master.company.address = Reina Mercedes 12,Sevilla, Andalucía, España
+master.company.phone = +000 123 456
+master.company.email = ivacarmen@alum.us.es
+
+# master.license ##############################################################
+
+master.license.title = License
+master.license.text = \
+	You may use this system free of charge, as long as you carefully observe the \
+	existing applicable laws.  Please, note that we do not share any information \
+	about you with any other company.  We only use three cookies, namely: \
+	"JSESSIONID" to identify your work session, "remember" to let you authenticate \
+	automatically for a maximum of 31 days, and "language" to store your language \
+	preferences. Additionally, we store an item called "returnStack" in your browser's \
+	local storage to keep track of the document to which some buttons must return.

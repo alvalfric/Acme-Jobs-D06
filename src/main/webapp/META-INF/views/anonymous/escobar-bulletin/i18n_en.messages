@@ -1,0 +1,27 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.escobar-bulletin.list.label.moment = Moment
+anonymous.escobar-bulletin.list.label.author = Author
+anonymous.escobar-bulletin.list.label.birthdate = Birthdate
+anonymous.escobar-bulletin.list.label.level = Level
+anonymous.escobar-bulletin.list.label.text = Text
+
+anonymous.escobar-bulletin.form.label.text = Text:
+anonymous.escobar-bulletin.form.label.author = Author:
+anonymous.escobar-bulletin.form.label.birthdate = Birthdate:
+anonymous.escobar-bulletin.form.label.level = Level:
+anonymous.escobar-bulletin.form.label.level.middle-school = Middle School
+anonymous.escobar-bulletin.form.label.level.high-school = High School
+anonymous.escobar-bulletin.form.label.level.vocational-training = Vocational Training
+anonymous.escobar-bulletin.form.label.level.university-degree = University Degree
+anonymous.escobar-bulletin.form.label.level.university-master = University Master
+anonymous.escobar-bulletin.form.button.create = Publish
+anonymous.escobar-bulletin.form.button.return = Return 

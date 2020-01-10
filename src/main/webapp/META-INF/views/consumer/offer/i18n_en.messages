@@ -1,0 +1,22 @@
+consumer.offer.form.label.title = Title: 
+consumer.offer.form.label.deadline = Deadline: 
+consumer.offer.form.label.text = Text: 
+consumer.offer.form.label.rewardMin = Minimum Reward: 
+consumer.offer.form.label.rewardMax = Maximum Reward:
+consumer.offer.form.label.ticker = Ticker: 
+consumer.offer.form.label.confirm = Confirm
+consumer.offer.form.button.create = Create
+consumer.offer.form.button.return = Return
+
+consumer.offer.error.ticker-null = Ticker can't be null
+consumer.offer.error.ticker-doesnt-match-regexp = Ticker must start with an "O", followed by 4 capital letters, a hyphen, and 5 numeric digits
+consumer.offer.error.duplicated-ticker = This ticker is taken
+consumer.offer.error.must-confirm = You must confirm before creating
+consumer.offer.error.rewardMin-null = The minimum reward can't be null
+consumer.offer.error.rewardMin-not-euro = The currency must be euro ("€")
+consumer.offer.error.rewardMax-null = The maximum reward can't be null
+consumer.offer.error.rewardMax-not-euro = The currency must be euro ("€")
+consumer.offer.error.rewardMin-too-big = (Minimum reward)<=(Maximum reward)
+consumer.offer.error.wrong-deadline = Deadline can't be null and must be at least one day ahead
+consumer.offer.error.title-null = Title can't be null
+consumer.offer.error.text-null = Text can't be null

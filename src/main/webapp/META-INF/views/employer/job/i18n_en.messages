@@ -1,0 +1,32 @@
+employer.job.list.label.reference = Reference
+employer.job.list.label.deadline = Deadline
+employer.job.list.label.title = Title
+
+employer.job.form.label.reference = Reference
+employer.job.form.label.title = Title
+employer.job.form.label.status = Status
+employer.job.form.label.publish-draft = Draft
+employer.job.form.label.publish-published = Published
+employer.job.form.label.deadline = Deadline
+employer.job.form.label.salary = Salary
+employer.job.form.label.moreInfo = More Info
+employer.job.form.label.description = Description
+
+employer.job.form.label.duty = Duty
+employer.job.form.label.duty.title = Title
+employer.job.form.label.duty.description = Description
+employer.job.form.label.duty.percentage = Percentage of work per week
+employer.job.form.label.duty.go = Edit duty
+
+employer.job.error.NotBlank = Must not be blank
+employer.job.error.duplicated = There is already a job with that reference
+employer.job.error.noFinalMode = Cannot be published
+employer.job.error.pattern = Must match the pattern
+employer.job.error.spam = Title contains spam words
+
+employer.job.error.duties.menor = Duty percentage is lower than 100%
+employer.job.error.duties.mayor = Duty percentage is greater than 100%
+
+employer.job.form.button.audit-record = Go to Audit Records
+
+employer.job.form.button.return = Return

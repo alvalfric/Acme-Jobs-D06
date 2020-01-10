@@ -1,0 +1,21 @@
+authenticated.job.list.label.reference = Reference
+authenticated.job.list.label.deadline = Deadline
+authenticated.job.list.label.title = Title
+
+authenticated.job.form.label.reference = Reference
+authenticated.job.form.label.title = Title
+authenticated.job.form.label.deadline = Deadline
+authenticated.job.form.label.salary = Salary
+authenticated.job.form.label.moreInfo = More Info
+authenticated.job.form.label.description = Description
+
+authenticated.job.form.label.duty = Duty
+authenticated.job.form.label.duty.title = Title
+authenticated.job.form.label.duty.description = Description
+authenticated.job.form.label.duty.percentage = Percentage of work per week
+
+worker.job.form.message.applicated = This job is already applied
+
+authenticated.job.form.button.audit-record = Go to Audit Records
+authenticated.job.form.button.application = Apply
+authenticated.job.form.button.return = Return

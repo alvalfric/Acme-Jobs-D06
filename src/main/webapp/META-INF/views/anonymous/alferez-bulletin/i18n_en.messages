@@ -1,0 +1,20 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.alferez-bulletin.list.label.moment = Moment
+anonymous.alferez-bulletin.list.label.author = Author
+anonymous.alferez-bulletin.list.label.type = Type
+anonymous.alferez-bulletin.list.label.url = Url
+
+anonymous.alferez-bulletin.form.label.author = Author:
+anonymous.alferez-bulletin.form.label.type = Type:
+anonymous.alferez-bulletin.form.label.url = Url:
+anonymous.alferez-bulletin.form.button.create = Share!
+anonymous.alferez-bulletin.form.button.return = Return 

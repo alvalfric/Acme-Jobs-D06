@@ -1,0 +1,40 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.company-record.form.label.companyName = Nombre Compañia:
+authenticated.company-record.form.label.sector = Sector:
+authenticated.company-record.form.label.CEOName = Nombre del CEO:
+authenticated.company-record.form.label.activitiesDescription = Descripción de las actividades:
+authenticated.company-record.form.label.website = Website:
+authenticated.company-record.form.label.contactPhone = Teléfono:
+authenticated.company-record.form.label.contactEmail = Email:
+authenticated.company-record.form.label.incorporated = Incorporada:
+authenticated.company-record.form.label.starScore = Valoración:
+
+administrator.company-record.list.label.companyName = Nombre Compañia:
+administrator.company-record.list.label.sector = Sector:
+administrator.company-record.list.label.CEOName = Nombre del CEO:
+administrator.company-record.list.label.activitiesDescription = Descripción de las actividades:
+administrator.company-record.list.label.website = Website:
+administrator.company-record.list.label.contactPhone = Teléfono:
+administrator.company-record.list.label.contactEmail = Email:
+administrator.company-record.list.label.starScore = Valoración:
+
+administrator.company-record.form.button.create = Añadir Nueva Compañia
+administrator.company-record.form.button.update = Actualizar
+administrator.company-record.form.button.delete = Borrar
+authenticated.company-record.form.button.return = Volver
+
+administrator.company-record.error.NotBlank = No puede estar vacío
+administrator.company-record.error.duplicated = Ya existe una compañia con ese nombre
+administrator.company-record.error.website = No es una página web válida
+administrator.company-record.error.contact-phone = El teléfono debe aderirse al siguiente patrón "+999 (9999) 999999". "+999" debe estar entre "+1" and "+999", "(9999)" debe estar entre "(0)" y "(9999)", y "999999" es un número enter 6 y 10 dígitos
+administrator.company-record.error.contact-email = No es un email válido
+administrator.company-record.error.star-score = El rango debe estar entre 0.0 y 5.0

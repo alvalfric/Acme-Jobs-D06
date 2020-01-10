@@ -1,0 +1,24 @@
+auditor.job.list.label.reference = Reference
+auditor.job.list.label.deadline = Deadline
+auditor.job.list.label.title = Title
+
+auditor.job.form.label.reference = Reference
+auditor.job.form.label.title = Title
+auditor.job.form.label.deadline = Deadline
+auditor.job.form.label.salary = Salary
+auditor.job.form.label.moreInfo = More Info
+auditor.job.form.label.description = Description
+
+auditor.job.form.label.duty = Duty
+auditor.job.form.label.duty.title = Title
+auditor.job.form.label.duty.description = Description
+auditor.job.form.label.duty.percentage = Percentage of work per week
+
+auditor.job.form.button.create-audit = Create Audit Record
+auditor.job.form.button.audit-record = Go to Audit Records
+auditor.job.form.button.return = Return
+
+employer.application.form.button.status.accepted = Accepted
+employer.application.form.button.status.rejected = Rejected
+employer.application.form.button.status.pending = Pending
+employer.application.form.button.status.all = All

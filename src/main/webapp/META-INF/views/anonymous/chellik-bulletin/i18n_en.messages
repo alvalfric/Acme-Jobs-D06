@@ -1,0 +1,30 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.chellik-bulletin.list.label.nombre = First Name
+anonymous.chellik-bulletin.list.label.apellido = Last Name
+anonymous.chellik-bulletin.list.label.role= Role
+anonymous.chellik-bulletin.list.label.fecha= Incorporation Date
+
+
+anonymous.chellik-bulletin.form.label.nombre = First Name:
+anonymous.chellik-bulletin.form.label.apellido = Last Name:
+
+anonymous.chellik-bulletin.form.label.role = Role : 
+anonymous.chellik-bulletin.form.label.role.developer = Developer
+anonymous.chellik-bulletin.form.label.role.analist = Analist
+anonymous.chellik-bulletin.form.label.role.manager = Manager
+anonymous.chellik-bulletin.form.label.role.tester = Tester
+anonymous.chellik-bulletin.form.label.role.operator = Operator
+anonymous.chellik-bulletin.form.label.fecha= Incorporation Date :
+
+
+anonymous.chellik-bulletin.form.button.create = Create!
+anonymous.chellik-bulletin.form.button.return = Return 

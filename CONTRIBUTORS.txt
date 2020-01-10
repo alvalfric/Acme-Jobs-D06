@@ -1,0 +1,17 @@
+# NOTICE.txt
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+- Iván Cárdenas Meneses  - Manager,Developer   Email: ivacarmen@alum.us.es
+- Álvaro Jesús Alferez Richarte  -  Operator,Developer Email: alvalfric@alum.us.es
+- Antonio Rosado Barrera - Developer      Email: antrosbar@alum.us.es
+- Jose Manuel Escobar Ruesga  - Developer   Email: josescrue@alum.us.es
+- Abdelkader Chellik - Developer   Email: abdche@alum.us.es
+
+- Rafael Corchuelo (corchu@us.es) 

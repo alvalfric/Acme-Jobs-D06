@@ -1,0 +1,26 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.customisation-parameter.list.label.spamWordsEn = Palabras Spam (Inglés)
+administrator.customisation-parameter.list.label.spamWordsEs = Palabras Spam (Español)
+administrator.customisation-parameter.list.label.spamThreshold = Límite de Spam
+
+administrator.customisation-parameter.form.label.spamWordsEn = Palabras Spam (Inglés):
+administrator.customisation-parameter.form.label.spamWordsEs = Palabras Spam (Español):
+administrator.customisation-parameter.form.label.spamThreshold = Límite de Spam:
+
+administrator.customisation-parameter.form.button.update = Actualizar
+	
+administrator.customisation-parameter.form.button.return = Volver
+
+# error messages
+
+administrator.customisation-parameter.error.NotBlank = No puede estar vacío
+administrator.customisation-parameter.error.spamWords = Debe ser de la forma palabra,palabra,palabra (Sin espacios al principio ni al final)

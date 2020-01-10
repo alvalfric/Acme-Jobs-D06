@@ -1,0 +1,35 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+authenticated.thread.list.label.title = Title
+authenticated.thread.list.label.moment = Moment
+
+authenticated.thread.form.label.creator = Creator
+authenticated.thread.form.label.user.name = Username
+authenticated.thread.form.label.users = Users
+
+authenticated.thread.form.label.messages = Messages
+authenticated.thread.form.label.message.title = Title
+authenticated.thread.form.label.message.moment = Moment
+authenticated.thread.form.label.message.user = User
+authenticated.thread.form.label.message.show = Show
+
+authenticated.thread.form.label.title = Title
+authenticated.thread.form.label.moment = Moment
+authenticated.thread.form.button.return = Return
+authenticated.thread.form.remove = Remove
+authenticated.thread.form.button.create = Create
+authenticated.thread.form.label.user.add = Add Users
+authenticated.thread.form.add = Add
+
+authenticated.thread.form.button.add-message = Add Message
+
+authenticated.thread.form.remove.user = You are gonna delete the following user from this thread:

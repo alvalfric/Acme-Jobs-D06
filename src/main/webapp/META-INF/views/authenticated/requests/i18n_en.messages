@@ -1,0 +1,11 @@
+authenticated.requests.form.label.title = Title: 
+authenticated.requests.form.label.creation = Creation: 
+authenticated.requests.form.label.deadline = Deadline: 
+authenticated.requests.form.label.text = Text: 
+authenticated.requests.form.label.reward = Reward: 
+authenticated.requests.form.label.ticker = Ticker: 
+authenticated.requests.form.button.return = Return
+
+authenticated.requests.list.label.title = Title
+authenticated.requests.list.label.creation = Creation
+authenticated.requests.list.label.deadline = Deadline

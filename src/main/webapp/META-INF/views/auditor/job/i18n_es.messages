@@ -1,0 +1,24 @@
+auditor.job.list.label.reference = Referencia
+auditor.job.list.label.deadline = Fecha límite
+auditor.job.list.label.title = Título
+
+auditor.job.form.label.reference = Referencia
+auditor.job.form.label.title = Título
+auditor.job.form.label.deadline = Fecha límite
+auditor.job.form.label.salary = Salario
+auditor.job.form.label.moreInfo = Más Información
+auditor.job.form.label.description = Descripción
+
+auditor.job.form.label.duty = Tareas
+auditor.job.form.label.duty.title = Título
+auditor.job.form.label.duty.description = Descripción
+auditor.job.form.label.duty.percentage = Porcentaje de trabajo por semana
+
+auditor.job.form.button.create-audit = Crear Registros de Auditoría
+auditor.job.form.button.audit-record = Ir a Registros de Auditoría
+auditor.job.form.button.return = Volver
+
+employer.application.form.button.status.accepted = Aceptadas
+employer.application.form.button.status.rejected = Rechazadas
+employer.application.form.button.status.pending = Pendientes
+employer.application.form.button.status.all = Todas

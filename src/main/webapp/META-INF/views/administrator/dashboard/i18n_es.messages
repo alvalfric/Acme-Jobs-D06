@@ -1,0 +1,20 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.dashboard.form.label.announcements = Número Total de Anuncions
+administrator.dashboard.form.label.companyRecords = Número Total de Compañias
+administrator.dashboard.form.label.investorRecords = Número Total de Inversionistas
+administrator.dashboard.form.label.minActiveRequests = Recompensa Mínima de Peticiones Activas
+administrator.dashboard.form.label.maxActiveRequests = Recompensa Máxima de Peticiones Activas
+administrator.dashboard.form.label.avgActiveRequests = Recompensa Media de Peticiones Activas
+administrator.dashboard.form.label.minOffers = Recompensa Mínima de Ofertas Activas
+administrator.dashboard.form.label.maxOffers = Recompensa Máxima de Ofertas Activas
+administrator.dashboard.form.label.avgOffers = Recompensa Media de Ofertas Activas
+administrator.dashboard.chart.label.companyInvestor = Gráfico de Registros de Compañias y Registros de Inversores

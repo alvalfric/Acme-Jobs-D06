@@ -1,0 +1,35 @@
+
+package acme.features.anonymous.rosadoBulletin;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import acme.entities.rosadoBulletin.RosadoBulletin;
+import acme.framework.components.BasicCommand;
+import acme.framework.controllers.AbstractController;
+import acme.framework.entities.Anonymous;
+
+@Controller
+@RequestMapping("/anonymous/rosado-bulletin/")
+public class AnonymousRosadoBulletinController extends AbstractController<Anonymous, RosadoBulletin> {
+
+	// Internal state ---------------------------------------------------------
+
+	@Autowired
+	private AnonymousRosadoBulletinListService		listService;
+	@Autowired
+	private AnonymousRosadoBulletinCreateService	createService;
+
+
+	// Constructors -----------------------------------------------------------
+
+	@PostConstruct
+	private void initialise() {
+		super.addBasicCommand(BasicCommand.LIST, this.listService);
+		super.addBasicCommand(BasicCommand.CREATE, this.createService);
+	}
+
+}

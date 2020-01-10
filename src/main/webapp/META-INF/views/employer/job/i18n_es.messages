@@ -1,0 +1,31 @@
+employer.job.list.label.reference = Referencia
+employer.job.list.label.deadline = Fecha límite
+employer.job.list.label.title = Título
+
+employer.job.form.label.reference = Referencia
+employer.job.form.label.title = Título
+employer.job.form.label.status = Estado
+employer.job.form.label.publish-draft = Borrador
+employer.job.form.label.publish-published = Publicado
+employer.job.form.label.deadline = Fecha límite
+employer.job.form.label.salary = Salario
+employer.job.form.label.moreInfo = Más Información
+employer.job.form.label.description = Descripción
+
+employer.job.form.label.duty = Tareas
+employer.job.form.label.duty.title = Título
+employer.job.form.label.duty.description = Descripción
+employer.job.form.label.duty.percentage = Porcentaje de trabajo por semana
+employer.job.form.label.duty.go = Editar tarea
+
+employer.job.error.NotBlank = No puede estar en blanco
+employer.job.error.duplicated = Ya existe un trabajo con esta referencia
+employer.job.error.noFinalMode = No puede ser publicado
+employer.job.error.pattern = Debe coincidir con el patron
+employer.job.error.spam = El título contiene palabras spam
+employer.job.error.duties.menor = El porcentaje de tareas es menor del 100%
+employer.job.error.duties.mayor = El porcentaje de tareas es mayor del 100%
+
+employer.job.form.button.audit-record = Ir a Registros de Auditoría
+
+employer.job.form.button.return = Volver
