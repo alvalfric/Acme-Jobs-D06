@@ -26,6 +26,7 @@ import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.validator.constraints.Length;
 
+import acme.datatypes.Phone;
 import acme.datatypes.UserIdentity;
 import acme.framework.helpers.PasswordHelper;
 import acme.framework.helpers.StringHelper;
@@ -51,6 +52,8 @@ public class UserAccount extends DomainEntity {
 	@NotBlank
 	@Length(min = 5, max = 60)
 	private String				password;
+
+	private Phone				phone;
 
 
 	public String getPassword() {

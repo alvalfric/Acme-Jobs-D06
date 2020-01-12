@@ -22,6 +22,7 @@
 	<acme:form-textbox code="administrator.user-account.form.label.email" path="identity.email" readonly="true"/>
 	<acme:form-textbox code="administrator.user-account.form.label.role-list" path="roleList" readonly="true"/>
 	<acme:form-textbox code="administrator.user-account.form.label.status" path="status" readonly="true"/>
+	<acme:form-phone code="administrator.user-account.form.label.phone" path="phone" readonly="true"/>
 	
 	<jstl:if test="${canUpdate}">
 		<acme:form-select code="administrator.user-account.form.label.new-status" path="newStatus">

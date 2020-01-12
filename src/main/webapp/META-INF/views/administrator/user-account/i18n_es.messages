@@ -15,6 +15,7 @@ administrator.user-account.form.label.username = Apodo:
 administrator.user-account.form.label.name = Nombre:
 administrator.user-account.form.label.surname = Apellidos:
 administrator.user-account.form.label.email = E-mail:
+administrator.user-account.form.label.phone = Teléfono:
 administrator.user-account.form.label.role-list = Roles:
 administrator.user-account.form.label.status = Status:
 administrator.user-account.form.label.new-status = Nuevo status:
