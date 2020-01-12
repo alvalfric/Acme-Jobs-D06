@@ -138,15 +138,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `consumer` (
-       `id` integer not null,
-        `version` integer not null,
-        `user_account_id` integer,
-        `company` varchar(255),
-        `sector` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `customisation_parameter` (
        `id` integer not null,
         `version` integer not null,
@@ -256,15 +247,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `provider` (
-       `id` integer not null,
-        `version` integer not null,
-        `user_account_id` integer,
-        `company` varchar(255),
-        `sector` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `request_auditor` (
        `id` integer not null,
         `version` integer not null,
@@ -338,6 +320,9 @@
         `identity_name` varchar(255),
         `identity_surname` varchar(255),
         `password` varchar(255),
+        `phone_area_code` varchar(255),
+        `phone_country_code` integer,
+        `phone_number` varchar(255),
         `username` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
@@ -433,11 +418,6 @@ create index IDXmly5kwrpgadjkxv5t5dgw36hr on `requests` (`deadline`);
        foreign key (`sponsor_id`) 
        references `sponsor` (`id`);
 
-    alter table `consumer` 
-       add constraint FK_6cyha9f1wpj0dpbxrrjddrqed 
-       foreign key (`user_account_id`) 
-       references `user_account` (`id`);
-
     alter table `duty` 
        add constraint `FK3cc3garl37bl7gswreqwr7pj4` 
        foreign key (`descriptor_id`) 
@@ -472,11 +452,6 @@ create index IDXmly5kwrpgadjkxv5t5dgw36hr on `requests` (`deadline`);
        add constraint `FKpcpr0xb5k7s4rxv5pulstt5v9` 
        foreign key (`sponsor_id`) 
        references `sponsor` (`id`);
-
-    alter table `provider` 
-       add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd 
-       foreign key (`user_account_id`) 
-       references `user_account` (`id`);
 
     alter table `request_auditor` 
        add constraint FK_ie2ocrruj5nai12m6h4a0fmtw 
