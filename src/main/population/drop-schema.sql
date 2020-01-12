@@ -35,10 +35,6 @@
        drop 
        foreign key `FKd0k52g7lcacefcp62kb4p9aor`;
 
-    alter table `consumer` 
-       drop 
-       foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
-
     alter table `duty` 
        drop 
        foreign key `FK3cc3garl37bl7gswreqwr7pj4`;
@@ -66,10 +62,6 @@
     alter table `non_commercial_banner` 
        drop 
        foreign key `FKpcpr0xb5k7s4rxv5pulstt5v9`;
-
-    alter table `provider` 
-       drop 
-       foreign key FK_b1gwnjqm6ggy9yuiqm0o4rlmd;
 
     alter table `request_auditor` 
        drop 
@@ -121,8 +113,6 @@
 
     drop table if exists `company_record`;
 
-    drop table if exists `consumer`;
-
     drop table if exists `customisation_parameter`;
 
     drop table if exists `descriptor`;
@@ -142,8 +132,6 @@
     drop table if exists `non_commercial_banner`;
 
     drop table if exists `offer`;
-
-    drop table if exists `provider`;
 
     drop table if exists `request_auditor`;
 
