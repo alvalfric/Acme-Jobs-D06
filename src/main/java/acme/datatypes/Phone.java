@@ -1,3 +1,4 @@
+
 package acme.datatypes;
 
 import javax.persistence.Embeddable;
@@ -15,41 +16,41 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Phone extends DomainDatatype {
-	
-	private static final long serialVersionUID = 1L;
-	
+
+	private static final long	serialVersionUID	= 1L;
+
 	@NotNull
-	@Range(min=1,max=999)
-	private Integer countryCode;
-	
-	@Pattern(regexp = "\\d{1,6}", message =  "default.error.conversion")
-	private String areaCode;
-	
+	@Range(min = 1, max = 999)
+	private Integer				countryCode;
+
+	@Pattern(regexp = "\\d{1,6}", message = "default.error.conversion")
+	private String				areaCode;
+
 	@NotBlank
-	@Pattern(regexp = "\\d{1,9}([\\s-]\\d{1,9}{0,5}",message = "default.error.conversion")
-	private String number;
-	
+	@Pattern(regexp = "\\d{1,9}([\\s-]\\d{1,9}){0,5}", message = "default.error.conversion")
+	private String				number;
+
+
 	//Object Interface
-	
+
+	@Override
 	public String toString() {
 		StringBuilder result;
-		
+
 		result = new StringBuilder();
 		result.append("<<+");
 		result.append(this.areaCode);
-		if(this.areaCode == null) {
+		if (this.areaCode == null) {
 			result.append(" ");
-		}else {
+		} else {
 			result.append(" (");
 			result.append(this.areaCode);
 			result.append(") ");
 		}
 		result.append(this.number);
 		result.append("))");
-		
+
 		return result.toString();
 	}
-	
-	
 
 }
