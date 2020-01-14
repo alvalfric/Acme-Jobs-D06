@@ -55,6 +55,7 @@
 				<property name="name" value="Administrator" />
 				<property name="surname" value="Acme.com" />
 				<property name="email" value="administrator@acme.com" />
+				<property name="phone" value="+1 123456" />
 			</bean>
 		</property>
 		<property name="roles">

@@ -318,11 +318,11 @@
         `enabled` bit not null,
         `identity_email` varchar(255),
         `identity_name` varchar(255),
+        `identity_phone_area_code` varchar(255),
+        `identity_phone_country_code` integer,
+        `identity_phone_number` varchar(255),
         `identity_surname` varchar(255),
         `password` varchar(255),
-        `phone_area_code` varchar(255),
-        `phone_country_code` integer,
-        `phone_number` varchar(255),
         `username` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;

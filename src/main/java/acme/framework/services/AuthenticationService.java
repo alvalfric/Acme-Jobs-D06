@@ -25,7 +25,6 @@ import acme.framework.entities.Anonymous;
 import acme.framework.entities.Authenticated;
 import acme.framework.entities.Principal;
 import acme.framework.entities.UserAccount;
-import acme.framework.helpers.StringHelper;
 import acme.framework.repositories.AuthenticationRepository;;
 
 @Service
@@ -42,7 +41,7 @@ public class AuthenticationService implements UserDetailsService {
 
 	@Override
 	public UserDetails loadUserByUsername(final String username) throws UsernameNotFoundException {
-		assert !StringHelper.isBlank(username);
+		//assert !StringHelper.isBlank(username);
 
 		Principal result;
 		UserAccount userAccount;

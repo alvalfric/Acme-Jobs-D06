@@ -23,7 +23,7 @@
 			<list>
 				<bean class="acme.framework.utilities.LocalisedDateFormatter"/>
 				<bean class="acme.framework.utilities.LocalisedMoneyFormatter"/>
-				<bean class="acme.componenets.PhoneFormatter"/>
+				<bean class="acme.components.PhoneFormatter"/>
 			</list>
 		</property>
 	</bean>
