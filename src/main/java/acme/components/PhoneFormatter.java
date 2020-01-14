@@ -25,11 +25,11 @@ public class PhoneFormatter implements Formatter<Phone> {
 		String result;
 		String countryCodeText, areaCodeText, numberText;
 
-		countryCodeText = String.format("%d", object.getCountryCode());
+		countryCodeText = String.format("+%d", object.getCountryCode());
 		areaCodeText = object.getAreaCode() == null ? " " : String.format(" (%s) ", object.getAreaCode());
 		numberText = String.format("%s", object.getNumber());
 
-		result = String.format("+%s%s%s", countryCodeText, areaCodeText, numberText);
+		result = String.format("%s%s%s", countryCodeText, areaCodeText, numberText);
 
 		return result;
 	}
@@ -66,7 +66,7 @@ public class PhoneFormatter implements Formatter<Phone> {
 			throw new ParseException(errorMessage, 0);
 		} else {
 			countryCodeText = matcher.group("CC");
-			countryCode = Integer.valueOf(countryCodeText);
+			countryCode = Integer.valueOf(countryCodeText.replace("+", ""));
 			areaCode = matcher.group("AC");
 			number = matcher.group("N");
 
