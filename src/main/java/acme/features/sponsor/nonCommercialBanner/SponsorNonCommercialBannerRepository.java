@@ -1,3 +1,4 @@
+
 package acme.features.sponsor.nonCommercialBanner;
 
 import java.util.Collection;
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import acme.entities.banners.NonCommercialBanner;
 import acme.entities.customisationParameters.CustomisationParameter;
 import acme.entities.roles.Sponsor;
+import acme.framework.entities.Authenticated;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
@@ -27,5 +29,8 @@ public interface SponsorNonCommercialBannerRepository extends AbstractRepository
 
 	@Query("select o from CustomisationParameter o ")
 	CustomisationParameter findOneCustomisationParameterById();
+
+	@Query("select a from Authenticated a where a.userAccount.id = ?1")
+	Authenticated findOneAuthenticatedUserByAccountId(int id);
 
 }
